@@ -1,0 +1,104 @@
+{
+    "locations": [
+        {
+            "img_src": "../src/images/spax.jpg",
+            "title": "Beach Spa",
+            "Value": 4,
+            "Saunas": 4,
+            "Pools": 3,
+            "Showers": 4,
+            "Lounge": 3,
+            "Cleanliness": 4,
+            "quote": "I really like this place, it's my go-to spa in Orange County."
+        },
+        {
+            "img_src": "../src/images/spax2.jpg",
+            "title": "Crystal Spa",
+            "Value": 1,
+            "Saunas": 2,
+            "Pools": 2,
+            "Showers": 3,
+            "Lounge": 2,
+            "Cleanliness": 3,
+            "quote": "Half the sauna for twice the price."
+        },
+        {
+            "img_src": "../src/images/spax3.jpg",
+            "title": "Hyundae Health Center",
+            "Value": 3,
+            "Saunas": 3,
+            "Pools": 3,
+            "Showers": 3,
+            "Lounge": 3,
+            "Cleanliness": 3,
+            "quote": "Average in every respect, no glaring issues, and nothing to praise."
+        },
+        {
+            "img_src": "../src/images/spax4.jpg",
+            "title": "East West Health Cente",
+            "Value": 3,
+            "Saunas": 2,
+            "Pools": 2,
+            "Showers": 3,
+            "Lounge": 2,
+            "Cleanliness": 3,
+            "quote": "Wi spa is the same price... which makes this a hard sell at the same price point."
+        },
+        {
+            "img_src": "../src/images/spax5.jpg",
+            "title": "Diamond Family Spa",
+            "Value": 3,
+            "Saunas": 2,
+            "Pools": 3,
+            "Showers": 3,
+            "Lounge": 2,
+            "Cleanliness": 3,
+            "quote": "No frills, basic Korean spa."
+        },
+        {
+            "img_src": "../src/images/spax6.jpg",
+            "title": "Thera Spa",
+            "Value": 2,
+            "Saunas": 3,
+            "Pools": 2,
+            "Showers": 2,
+            "Lounge": 3,
+            "Cleanliness": 3,
+            "quote": "Do yourself a favor and go to Irvine Spa 5 mins away, for the same price."
+        },
+        {
+            "img_src": "../src/images/spax7.jpg",
+            "title": "Sage Spa",
+            "Value": 4,
+            "Saunas": 4,
+            "Pools": 3,
+            "Showers": 4,
+            "Lounge": 4,
+            "Cleanliness": 4,
+            "quote": "...perfect for it's intended use of before and after treatment relaxing."
+        },
+        {
+            "img_src": "../src/images/spax8.jpg",
+            "title": "King Spa & Sauna",
+            "Value": 4,
+            "Saunas": 3,
+            "Pools": 4,
+            "Showers": 4,
+            "Lounge": 4,
+            "Cleanliness": 3,
+            "quote": "The pools are fantastic. I love the variety of temperatures and the sizes."
+        },
+        {
+            "img_src": "../src/images/spax9.jpg",
+            "title": "Wilshire Spa",
+            "Value": 3,
+            "Saunas": 3,
+            "Pools": 2,
+            "Showers": 3,
+            "Lounge": 2,
+            "Cleanliness": 2,
+            "quote": "As 24/7 spas in Ktown go, I'd personally rather go to Wi Spa or Century."
+        }
+    ],
+    "aspect_order": ["Value", "Saunas", "Pools", "Showers", "Lounge", "Cleanliness"]
+}

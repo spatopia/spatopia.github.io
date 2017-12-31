@@ -1,0 +1,27 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+{% import 'macros/create_aspect.nunjucks' as create %}
+<div class="header">
+    <img class="tom" src="../src/images/tom.jpg" alt="">
+    <div class="title">Spatopia</div>
+    <div class="subtitle">The premier location for OC spa reviews</div>
+</div>
+<div class="container">
+    {% for location in locations %}
+    <div class="spa-location">
+        <img class="spa-picture" src="{{ location.img_src }}" alt="">
+        <div class="spa-details">
+            <div class="spa-title">{{ location.title }}</div>
+            <div class="spa-aspects">
+                {% for aspect in aspect_order %}
+                    {{ create.create_aspect(aspect, location[aspect]) }}
+                {% endfor %}
+            </div>
+            <div class="spa-quote">"{{location.quote}}"</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

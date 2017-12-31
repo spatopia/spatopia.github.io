@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spatopia</title>
+        <link rel="stylesheet" href="https://use.typekit.net/tji3axj.css">
+        <link rel="stylesheet" href="./dist/css/styles.css">
+        <!-- <script src="https://use.fontawesome.com/38401f26a2.js"></script> -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    </head>
+    <body>
+        {% block content %} {% endblock %}
+    </body>
+</html>

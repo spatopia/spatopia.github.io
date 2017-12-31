@@ -1,0 +1,31 @@
+{
+  "name": "spatopia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spatopia/spatopia.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spatopia/spatopia.github.io/issues"
+  },
+  "homepage": "https://github.com/spatopia/spatopia.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-data": "^1.2.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-less": "^3.4.0",
+    "gulp-merge": "^0.1.1",
+    "gulp-nunjucks-render": "^2.2.1",
+    "merge-stream": "^1.0.1"
+  }
+}
