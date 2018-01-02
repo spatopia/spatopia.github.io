@@ -1,0 +1,10 @@
+{% macro create_section(title, data) %}
+<div class="review-section">
+    <div class="review-section__title">{{ title }}</div>
+    <div class="review-section__info">
+        {% for item in data %}
+        <div class="review-section__data">{{ item }}</div>
+        {% endfor %}
+    </div>
+</div>
+{% endmacro %}

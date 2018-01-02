@@ -2,7 +2,6 @@
 @font-face { font-family: Apercu-Light; src: url('../fonts/Apercu-Light.otf'); }
 @font-face { font-family: Apercu-Italic; src: url('../fonts/Apercu-Italic.otf'); }
 @font-face { font-family: Apercu-Bold; src: url('../fonts/Apercu-Bold.otf'); }
-@font-face { font-family: Apercu-Medium; src: url('../fonts/Apercu-Medium.otf'); }
 
 body {
     background-color: #F3EDE7;
@@ -49,7 +48,10 @@ body {
     background-color: #E5E0DA;
     padding: 0.75rem;
     position: relative;
-    cursor: pointer;
+}
+
+.is-hidden {
+    display: none;
 }
 
 .spa-picture {
@@ -111,11 +113,6 @@ body {
     color: #505050;
 }
 
-.aspect-rating {
-    display: flex;
-    justify-content: center;
-}
-
 .spa-star{
     color: #3E606F;
 }
@@ -138,95 +135,10 @@ body {
     }
 
     .spa-quote {
-        margin-top: 10px;
+        margin-top: 0;
     }
 }
 
 .spa-review {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    background-color: #F5CA9F;
-    padding: 1rem;
-    border-radius: 5px;
-    justify-content: flex-start;
-    color: #343231;
-}
-
-.review-title {
-    font-size: 5rem;
-    font-family: Apercu-Medium;
-    flex: 1 1 100%;
-    color: #343231;
-    margin: 0 0 -20px -6px;
-}
-
-.review-subtitle {
-    font-size: 2rem;
-    font-family: Apercu-Light;
-    flex: 1 1 100%;
-    color: #343231;
-    margin-bottom: 1rem;
-}
-
-.review-section {
-    flex: 1 1 100%;
-}
-
-.review-section__title {
-    font-size: 1.5rem;
-    border-bottom: 1px solid black;
-    flex: 1 1 100%;
-    margin-bottom: 1rem;
-    font-family: Apercu-Medium;
-}
-
-.review-section__data {
-    margin-bottom: 0.25rem;
-    font-family: Apercu-Light;
-}
-
-.review-image {
-    display: inline-block;
-    margin: 0 1rem 1rem 0;
-    height: 100px;
-    width: 200px;
-    border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 200px;
-    object-fit: cover;
-    margin: 0 auto;
-}
-
-.is-hidden {
-    display: none;
-}
-
-.review-slideout {
-    position: absolute;
-    width: 100vw;
-    height: auto;
     background-color: red;
-    transform: translateX(-105%);
-    transition: 0.5s;
-    top: 0;
-    left: 0;
-    z-index: 1;
-
-
-    background-color: #F5CA9F;
-    border-radius: 5px;
-
-    &.is-active {
-        transform: translateX(0);
-        transition: 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    }
-}
-
-.spa-reviews {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    color: #343231;
-    padding: 1rem 3rem 3rem 3rem;
 }

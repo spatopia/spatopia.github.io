@@ -9,7 +9,8 @@
             "Showers": 4,
             "Lounge": 3,
             "Cleanliness": 4,
-            "quote": "I really like this place, it's my go-to spa in Orange County."
+            "quote": "I really like this place, it's my go-to spa in Orange County.",
+            "id": 1
         },
         {
             "img_src": "../src/images/spax2.jpg",
@@ -20,7 +21,8 @@
             "Showers": 3,
             "Lounge": 2,
             "Cleanliness": 3,
-            "quote": "Half the sauna for twice the price."
+            "quote": "Half the sauna for twice the price.",
+            "id": 2
         },
         {
             "img_src": "../src/images/spax3.jpg",
@@ -31,18 +33,20 @@
             "Showers": 3,
             "Lounge": 3,
             "Cleanliness": 3,
-            "quote": "Average in every respect, no glaring issues, and nothing to praise."
+            "quote": "Average in every respect, no glaring issues, and nothing to praise.",
+            "id": 3
         },
         {
             "img_src": "../src/images/spax4.jpg",
-            "title": "East West Health Cente",
+            "title": "East West Health Center",
             "Value": 3,
             "Saunas": 2,
             "Pools": 2,
             "Showers": 3,
             "Lounge": 2,
             "Cleanliness": 3,
-            "quote": "Wi spa is the same price... which makes this a hard sell at the same price point."
+            "quote": "Wi spa is the same price... which makes this a hard sell at the same price point.",
+            "id": 4
         },
         {
             "img_src": "../src/images/spax5.jpg",
@@ -53,7 +57,8 @@
             "Showers": 3,
             "Lounge": 2,
             "Cleanliness": 3,
-            "quote": "No frills, basic Korean spa."
+            "quote": "No frills, basic Korean spa.",
+            "id": 5
         },
         {
             "img_src": "../src/images/spax6.jpg",
@@ -64,7 +69,8 @@
             "Showers": 2,
             "Lounge": 3,
             "Cleanliness": 3,
-            "quote": "Do yourself a favor and go to Irvine Spa 5 mins away, for the same price."
+            "quote": "Do yourself a favor and go to Irvine Spa 5 mins away, for the same price.",
+            "id": 6
         },
         {
             "img_src": "../src/images/spax7.jpg",
@@ -75,7 +81,8 @@
             "Showers": 4,
             "Lounge": 4,
             "Cleanliness": 4,
-            "quote": "...perfect for it's intended use of before and after treatment relaxing."
+            "quote": "...perfect for it's intended use of before and after treatment relaxing.",
+            "id": 7
         },
         {
             "img_src": "../src/images/spax8.jpg",
@@ -86,7 +93,8 @@
             "Showers": 4,
             "Lounge": 4,
             "Cleanliness": 3,
-            "quote": "The pools are fantastic. I love the variety of temperatures and the sizes."
+            "quote": "The pools are fantastic. I love the variety of temperatures and the sizes.",
+            "id": 8
         },
         {
             "img_src": "../src/images/spax9.jpg",
@@ -97,8 +105,70 @@
             "Showers": 3,
             "Lounge": 2,
             "Cleanliness": 2,
-            "quote": "As 24/7 spas in Ktown go, I'd personally rather go to Wi Spa or Century."
-        }
+            "quote": "As 24/7 spas in Ktown go, I'd personally rather go to Wi Spa or Century.",
+            "id": 9
+       } 
     ],
-    "aspect_order": ["Value", "Saunas", "Pools", "Showers", "Lounge", "Cleanliness"]
+    "aspect_order": ["Value", "Saunas", "Pools", "Showers", "Lounge", "Cleanliness"],
+    "section_order": ["admission", "showers", "saunas", "pools", "am", "review"],
+    "reviews": [
+        {
+            "id": 1,
+            "img_src": "../src/images/spax.jpg",
+            "title": "Beach Spa",
+            "location": "Buena Park",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$15 (Sauna and Jjimjilbang)",
+                    "$20 (Sauna, Jjimjilbang, and Massage)",
+                    "$25 (Sauna, Jjimjibang, Massage, and Wash)"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "8 Standing",
+                    "7 Seated",
+                    "1 Handicapped"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Korean Mist Room (Wet)",
+                    "Eucalyptus Steam Room (Wet)",
+                    "Dry Sauna",
+                    "Cold Room",
+                    "Clay Room",
+                    "Marble Room"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 107F",
+                    "Warm (Jacuzzi) - 102F",
+                    "Cold Plunge - 67F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $30",
+                    "3 Scrub Tables",
+                    "Quiet Room: Yes",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No",
+                    "Towels: Unlimited Small Towels"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "I really like this place, it's my go-to spa in Orange County.  It's best feature, in my opinion, are the spacious, deep pools. Especially the cold plunge. The spa not as large and polished as it's top OC rival, Irvine Spa, but it has a lot of character that I personally prefer. It draws almost exclusively a Korean crowd compared to Imperial Spa just up Beach, but they were very friendly to this westerner.  Also, I love that they offer bar soap in the showers, and their disposable toothbrushes are much more firm than the green ones every other Korean spa I have been to."
+                ]
+            }
+        }
+    ]
 }

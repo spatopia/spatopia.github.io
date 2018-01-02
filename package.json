@@ -26,6 +26,9 @@
     "gulp-less": "^3.4.0",
     "gulp-merge": "^0.1.1",
     "gulp-nunjucks-render": "^2.2.1",
-    "merge-stream": "^1.0.1"
+    "gulp-watch": "^4.3.11",
+    "merge-stream": "^1.0.1",
+    "vinyl": "^2.1.0",
+    "vinyl-file": "^3.0.0"
   }
 }

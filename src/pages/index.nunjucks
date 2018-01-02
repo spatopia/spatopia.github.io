@@ -2,14 +2,29 @@
 
 {% block content %}
 {% import 'macros/create_aspect.nunjucks' as create %}
+{% import 'macros/create_section.nunjucks' as cs %}
 <div class="header">
     <img class="tom" src="../src/images/tom.jpg" alt="">
     <div class="title">Spatopia</div>
     <div class="subtitle">The premier location for OC spa reviews</div>
 </div>
+<div class="review-slideout">
+    <div class="spa-reviews js-spa-reviews">
+        {% for review in reviews %}
+        <div class="spa-review" data-id="{{ review.id }}">
+            <img src="{{ review.img_src }}" alt="" class="review-image">
+            <div class="review-title">{{ review.title }}</div>
+            <div class="review-subtitle">{{ review.location }}</div>
+                {% for section in section_order %}
+                    {{ cs.create_section(review[section].title, review[section].data) }}
+                {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
 <div class="container">
     {% for location in locations %}
-    <div class="spa-location">
+    <div class="spa-location js-spa-location" data-id="{{ location.id }}">
         <img class="spa-picture" src="{{ location.img_src }}" alt="">
         <div class="spa-details">
             <div class="spa-title">{{ location.title }}</div>
@@ -22,6 +37,64 @@
         </div>
     </div>
     {% endfor %}
+
+    <div class="spa-review is-hidden">
+        <img class="review-image" src="../src/images/spax.jpg">
+        <div class="review-title">Beach Spa</div>
+        <div class="review-subtitle">Buena Park</div>
+        <div class="review-section">
+            <div class="review-section__title">Admission</div>
+            <div class="review-section__info">
+                <div class="review-section__data">$15 (Sauna and Jjimjilbang)</div>
+                <div class="review-section__data">$20 (Sauna, Jjimjilbang, and Massage)</div>
+                <div class="review-section__data">$25 (Sauna, Jjimjibang, Massage, and Wash)</div>
+            </div>
+        </div>
+        <div class="review-section">
+            <div class="review-section__title">Showers</div>
+            <div class="review-section__info">
+                <div class="review-section__data">8 Standing</div>
+                <div class="review-section__data">7 Seated</div>
+                <div class="review-section__data">1 Handicapped</div>
+            </div>
+        </div>
+        <div class="review-section">
+            <div class="review-section__title">Saunas</div>
+            <div class="review-section__info">
+                <div class="review-section__data">Korean Mist Room (Wet)</div>
+                <div class="review-section__data">Eucalyptus Steam Room (Wet)</div>
+                <div class="review-section__data">Dry Sauna</div>
+                <div class="review-section__data">Cold Room</div>
+                <div class="review-section__data">Clay Room</div>
+                <div class="review-section__data">Marble Room</div>
+            </div>
+        </div>
+        <div class="review-section">
+            <div class="review-section__title">Pools</div>
+            <div class="review-section__info">
+                <div class="review-section__data">Hot (Jacuzzi) - 107F</div>
+                <div class="review-section__data">Warm (Jacuzzi) - 102F</div>
+                <div class="review-section__data">Cold Plunge - 67F</div>
+            </div>
+        </div>
+        <div class="review-section">
+            <div class="review-section__title">Amenities and Ambiance</div>
+            <div class="review-section__info">
+                <div class="review-section__data">Body Scrub: $30</div>
+                <div class="review-section__data">3 Scrub Tables</div>
+                <div class="review-section__data">Quiet Room: Yes</div>
+                <div class="review-section__data">TV Lounge: Yes</div>
+                <div class="review-section__data">Outdoor Patio: No</div>
+                <div class="review-section__data">Towels: Unlimited Small Towels</div>
+            </div>
+        </div>
+        <div class="review-section">
+            <div class="review-section__title">Review</div>
+            <div class="review-section__info">
+                <div class="review-section__data">I really like this place, it's my go-to spa in Orange County.  It's best feature, in my opinion, are the spacious, deep pools. Especially the cold plunge. The spa not as large and polished as it's top OC rival, Irvine Spa, but it has a lot of character that I personally prefer. It draws almost exclusively a Korean crowd compared to Imperial Spa just up Beach, but they were very friendly to this westerner.  Also, I love that they offer bar soap in the showers, and their disposable toothbrushes are much more firm than the green ones every other Korean spa I have been to.</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}

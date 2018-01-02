@@ -1,11 +1,13 @@
 {% macro create_aspect(name, rating) %}
 <div class="spa-aspect">
     <div class="detail-title">{{ name }}</div>
-    {% for i in range(0, rating) -%}
-        <i class="fas fa-star spa-star"></i>
-    {%- endfor %}
-    {% for i in range(0, 5 - rating) -%}
-        <i class="far fa-star"></i>
-    {%- endfor %}
+    <div class="aspect-rating">
+        {% for i in range(0, rating) -%}
+            <i class="fas fa-star spa-star"></i>
+        {%- endfor %}
+        {% for i in range(0, 5 - rating) -%}
+            <i class="far fa-star"></i>
+        {%- endfor %}
+    </div>
 </div>
 {% endmacro %}
