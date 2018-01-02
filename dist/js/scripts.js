@@ -5,7 +5,7 @@ $(function () {
     var $review = $('.js-spa-review');
     var deltaX = 0;
 
-    $('.js-spa-location').on('click touchstart', function (event) {
+    $('.js-spa-location').on('click touch', function (event) {
         // const spaId = $(event.target).parents('.js-spa-location').data('id');
         // $(`.js-spa-review[data-id=${spaId}]`).removeClass('is-hidden');
         $('.js-spa-review[data-id=1]').removeClass('is-hidden');
