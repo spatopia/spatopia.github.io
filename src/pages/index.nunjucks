@@ -11,7 +11,7 @@
 <div class="review-slideout">
     <div class="spa-reviews js-spa-reviews">
         {% for review in reviews %}
-        <div class="spa-review" data-id="{{ review.id }}">
+        <div class="spa-review js-spa-review is-hidden" data-id="{{ review.id }}">
             <img src="{{ review.img_src }}" alt="" class="review-image">
             <div class="review-title">{{ review.title }}</div>
             <div class="review-subtitle">{{ review.location }}</div>

@@ -135,6 +135,13 @@ body {
     margin-top: 10px;
   }
 }
+.spa-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #343231;
+  padding: 1rem 3rem 3rem 3rem;
+}
 .spa-review {
   display: flex;
   flex-wrap: wrap;
@@ -151,7 +158,7 @@ body {
   font-family: Apercu-Medium;
   flex: 1 1 100%;
   color: #343231;
-  margin: 0 0 -20px -6px;
+  margin: 0 0 -10px -6px;
 }
 .review-subtitle {
   font-size: 2rem;
@@ -203,11 +210,4 @@ body {
 .review-slideout.is-active {
   transform: translateX(0);
   transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-.spa-reviews {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  color: #343231;
-  padding: 1rem 3rem 3rem 3rem;
 }

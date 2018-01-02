@@ -1,8 +1,12 @@
 $(() => {
     const $slide = $('.review-slideout');
+    const $review = $('.js-spa-review');
     let deltaX = 0;
 
     $('.js-spa-location').on('click touchstart', event => {
+        // const spaId = $(event.target).parents('.js-spa-location').data('id');
+        // $(`.js-spa-review[data-id=${spaId}]`).removeClass('is-hidden');
+        $(`.js-spa-review[data-id=1]`).removeClass('is-hidden');
         $slide.addClass('is-showing');
         $slide.css({
             transform: `translateX(0)`,
@@ -38,6 +42,9 @@ $(() => {
                 transition: '0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)'
             });
             $slide.removeClass('is-showing');
+            setTimeout(() => {
+                $review.addClass('is-hidden');
+            }, 500);
         }
         else {
             $slide.css({

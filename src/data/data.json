@@ -169,6 +169,62 @@
                     "I really like this place, it's my go-to spa in Orange County.  It's best feature, in my opinion, are the spacious, deep pools. Especially the cold plunge. The spa not as large and polished as it's top OC rival, Irvine Spa, but it has a lot of character that I personally prefer. It draws almost exclusively a Korean crowd compared to Imperial Spa just up Beach, but they were very friendly to this westerner.  Also, I love that they offer bar soap in the showers, and their disposable toothbrushes are much more firm than the green ones every other Korean spa I have been to."
                 ]
             }
+        },
+        {
+            "id": 2,
+            "img_src": "../src/images/spax2.jpg",
+            "title": "Crystal Spa",
+            "location": "Los Angeles",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$30 (Daily, except Wednesdays",
+                    "$15 (Wednesday only, or with any service)",
+                    "$35 (Friday & Saturday after 10PM)",
+                    "1 & 12 Month Memberships Available"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "6 Standing",
+                    "3 Seated",
+                    "1 Handicapped",
+                    "1 Cold Rinse"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam",
+                    "Dry"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 107F",
+                    "Cold Plunge - 60F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $30",
+                    "2 Scrub Tables",
+                    "Quiet Room: No",
+                    "Grooming Stations: 3",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No",
+                    "Towels: Large and Small Provided, No Limit"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "\"Half the sauna for twice the price.\" Sums up all you need to know about this place.  These people are nuts for charging $30 to use this cramped, old and unkempt facility.  If I didn't wait for $15 Wednesday, I would have asked for my money back.  Avoid this place, go to any of the numerous spas in K-Town."
+                ]
+            }
         }
     ]
 }
