@@ -30,7 +30,7 @@ $(() => {
             deltaX = Math.min(0, event.deltaX);
             $slide.css({
                 transform: `translateX(${deltaX}px)`,
-                transition: '0.2s easeInQuint'
+                transition: '0s easeInQuint'
             });
         }
     });
