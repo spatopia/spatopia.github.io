@@ -7,6 +7,7 @@ $(() => {
         // const spaId = $(event.target).parents('.js-spa-location').data('id');
         // $(`.js-spa-review[data-id=${spaId}]`).removeClass('is-hidden');
         $(`.js-spa-review[data-id=1]`).removeClass('is-hidden');
+        $('body').css('overflow', 'hidden');
         $slide.addClass('is-showing');
         $slide.css({
             transform: `translateX(0)`,
@@ -45,6 +46,7 @@ $(() => {
             setTimeout(() => {
                 $review.addClass('is-hidden');
             }, 500);
+            $('body').css('overflow', 'auto');
         }
         else {
             $slide.css({
@@ -55,15 +57,27 @@ $(() => {
         }
     });
 
-    $(document).on('scroll', event => {
-        const currentScroll = $(window).scrollTop();
-        const windowHeight = $(window).height();
-        const totalScroll = currentScroll + windowHeight;
-        const reviewHeight = $slide.height();
-        const reviewBottom = reviewHeight - windowHeight;
+    $('.js-spa-review__back').on('click touch', event => {
+            $slide.css({
+                transform: `translateX(-105%)`,
+                transition: '0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)'
+            });
+            $slide.removeClass('is-showing');
+            setTimeout(() => {
+                $review.addClass('is-hidden');
+            }, 500);
+            $('body').css('overflow', 'auto');
+    })
 
-        if (currentScroll > reviewBottom && $slide.hasClass('is-showing')) {
-            $(document).scrollTop(reviewBottom);
-        }
-    });
+    // $(document).on('scroll', event => {
+    //     const currentScroll = $(window).scrollTop();
+    //     const windowHeight = $(window).height();
+    //     const totalScroll = currentScroll + windowHeight;
+    //     const reviewHeight = $slide.height();
+    //     const reviewBottom = reviewHeight - windowHeight;
+
+    //     if (currentScroll > reviewBottom && $slide.hasClass('is-showing')) {
+    //         $(document).scrollTop(reviewBottom);
+    //     }
+    // });
 });

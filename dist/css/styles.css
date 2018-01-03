@@ -197,8 +197,9 @@ body {
 .review-slideout {
   position: absolute;
   width: 100vw;
-  height: auto;
+  height: 100%;
   background-color: red;
+  overflow-y: scroll;
   transform: translateX(-105%);
   transition: 0.5s;
   top: 0;
@@ -210,4 +211,11 @@ body {
 .review-slideout.is-active {
   transform: translateX(0);
   transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.spa-review__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 4rem;
+  margin: 2rem 4rem;
 }

@@ -6,6 +6,15 @@ var less = require('gulp-less');
 var path = require('path');
 var merge = require('merge-stream');
 var watch = require('gulp-watch');
+var browser_sync = require('browser-sync');
+
+gulp.task('browser-sync', function() {
+    browser_sync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+});
 
 gulp.task('build_nunjucks', function() {
     build_nunjucks();
