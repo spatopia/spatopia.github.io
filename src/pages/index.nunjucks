@@ -9,6 +9,7 @@
     <div class="subtitle">The premier location for OC spa reviews</div>
 </div>
 <div class="review-slideout">
+    <span class="spa-review__back js-spa-review__back"><</span>
     <div class="spa-reviews js-spa-reviews">
         {% for review in reviews %}
         <div class="spa-review js-spa-review is-hidden" data-id="{{ review.id }}">
