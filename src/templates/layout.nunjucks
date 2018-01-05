@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.75" shrink-to-fit="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="yes">
         <title>Spatopia</title>
         <link rel="stylesheet" href="https://use.typekit.net/tji3axj.css">
         <link rel="stylesheet" href="./dist/css/styles.css">

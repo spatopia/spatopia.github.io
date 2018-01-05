@@ -6,9 +6,15 @@ $(function () {
     var deltaX = 0;
 
     $('.js-spa-location').on('click touch', function (event) {
-        // const spaId = $(event.target).parents('.js-spa-location').data('id');
-        // $(`.js-spa-review[data-id=${spaId}]`).removeClass('is-hidden');
-        $('.js-spa-review[data-id=1]').removeClass('is-hidden');
+        var spaId = undefined;
+        if ($(event.target).hasClass('js-spa-location')) {
+            spaId = $(event.target).data('id');
+        } else {
+            spaId = $(event.target).parents('.js-spa-location').data('id');
+        }
+
+        $('.js-spa-review[data-id=' + spaId + ']').removeClass('is-hidden');
+        // $(`.js-spa-review[data-id=1]`).removeClass('is-hidden');
         $('body').css('overflow', 'hidden');
         $slide.addClass('is-showing');
         $slide.css({

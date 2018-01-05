@@ -225,6 +225,382 @@
                     "\"Half the sauna for twice the price.\" Sums up all you need to know about this place.  These people are nuts for charging $30 to use this cramped, old and unkempt facility.  If I didn't wait for $15 Wednesday, I would have asked for my money back.  Avoid this place, go to any of the numerous spas in K-Town."
                 ]
             }
+        },
+        {
+            "id": 3,
+            "img_src": "../src/images/spax3.jpg",
+            "title": "Hyundae Health Center",
+            "location": "Los Angeles",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$10 (6AM-10PM)",
+                    "$15 (10PM-11AM)"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "8 Standing",
+                    "8 Seated"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Jewelry Mist Room (Wet)",
+                    "Dry Sauna"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 110F",
+                    "Warm (Jacuzzi) - 104F",
+                    "Cold Plunge - 60F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $25",
+                    "1 Scrub Table",
+                    "Quiet Room: Yes",
+                    "Grooming Stations: 4",
+                    "TV Lounge: No",
+                    "Outdoor Patio: No",
+                    "Towels: Medium and Small Provided, No Limit"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "Standard Korean spa, and only for men.  Average in every respect, no glaring issues, and nothing to praise. One thing worth mentioning is there are cameras in the locker room for security reasons. So if that bothers you, head towards on of the other countless korean spas in the area."
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "img_src": "../src/images/spax4.jpg",
+            "title": "East West Health Center",
+            "location": "Los Angeles",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$10 (5AM-10PM)",
+                    "$15 (9PM-10AM)",
+                    "1, 6, and 12 Month Memberships Available"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "10 Standing",
+                    "10 Seated",
+                    "1 Cold Rinse"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam Room",
+                    "Dry Sauna"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 108F",
+                    "Warm (Jacuzzi) - 104F",
+                    "Cold Plunge - 61F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $25",
+                    "1 Scrub Table",
+                    "Quiet Room: Yes",
+                    "Grooming Stations: 4",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No",
+                    "Towels: Small Provided, No Limit"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "The facility is really in need of a facelift.  It seemed reasonably clean, just a bit worn and dated.  The pools were on the small side, and oddly shaped, especially the cold plunge.  But honestly, Wi spa is the same price, 24/7 and nearby, which makes this a hard sell at the same price point.   For what it's worth, there is also a small but adequate gym for use, and a Barber during the day."
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "img_src": "../src/images/spax5.jpg",
+            "title": "Diamond Family Spa",
+            "location": "Rowland Heights",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$15 (Sauna Only)",
+                    "$15 (Monday-Thursday: 8AM-10PM and 9PM-11PM",
+                    "$25 (Sauna And Jjimjilbang)"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "12 Standing",
+                    "7 Seated",
+                    "1 Handicapped"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam Room (133F)",
+                    "Dry Sauna (195F)"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 108F",
+                    "Warm (Jacuzzi) - 105F",
+                    "Cold Plunge - 65F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $45",
+                    "1 Scrub Table",
+                    "Quiet Room: Yes",
+                    "Grooming Stations: No",
+                    "TV Lounge: No",
+                    "Outdoor Patio: No",
+                    "Towels: 3 Small Provided At Check-In"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "No frills, basic Korean spa."
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "img_src": "../src/images/spax6.jpg",
+            "title": "Thera Health Spa",
+            "location": "Tustin",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$20 (Sauna Only)"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "4 Standing",
+                    "3 Seated"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam Room",
+                    "Dry Sauna"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 108F",
+                    "Warm (Jacuzzi) - 73F",
+                    "Cold Plunge - 71F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $40",
+                    "1 Scrub Table",
+                    "Quiet Room: No",
+                    "Grooming Stations: No",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No",
+                    "Towels: 1 Large, 1 Small Provided At Check-In"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "Small, stingy towel policy, terrible pool temps.  Do yourself a favor and go to Irvine Spa 5 mins away, for the same price. Superior is every measurable way.  I gave it 2 stars because it's clean and will do in a pinch. But there are just much better options."
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "img_src": "../src/images/spax7.jpg",
+            "title": "Sage Spa",
+            "location": "Cabazon",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$15 (Day Pass/Hotel Guest)",
+                    "$40 (Day Pass/Non Hotel Guest)",
+                    "Free With Service"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "4 Standing",
+                    "1 Handicapped"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam Room",
+                    "Dry Sauna"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 103F",
+                    "Cold Plunge - 72F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: No",
+                    "Quiet Room: No",
+                    "Grooming Stations: No",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "Very small and cramped, but very clean facility.  Not a place you want to spend the day, but perfect for it's intended use of before and after treatment relaxing.  The warm pool can fit 2-3 adults (maybe), and the cold plunge is only large enough for 1.  The \"lounge\" is also tiny, and looks like an afterthought."
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "img_src": "../src/images/spax8.jpg",
+            "title": "King Spa And Sauna",
+            "location": "Dallas, TX",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$30 (Day Pass)"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "20 Standing",
+                    "12 Seated"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam Room",
+                    "Dry Sauna"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 110F",
+                    "Warm (Jacuzzi) - 107F",
+                    "Mild (Jacuzzi) - 102F",
+                    "Therapy (Power Jets) - 100F",
+                    "Cold Plunge with Stream - 61F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $45 (40 Min), $85 (60 Min), $125 (70 Min)",
+                    "3 Scrub Tables",
+                    "Quiet Room: Yes",
+                    "Grooming Stations: 5",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No",
+                    "Towels: Small Towels, No Limit"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "I wish I could give out half stars, because this place is just shy of 5-stars. The pools are fantastic. I love the variety of temperatures and the sizes. Where this place falls short is are the saunas and the sleeping area. The \"sleeping\" area is not conducive to sleep. It's a brightly lit, open area in the main locker room.  The saunas are tiny for a spa this size, and the dry one is not nearly as hot as it should be.  Aside from that, it's a nice facility.  The Jjimjilbang and water park are the real key features, but as mentioned above, I'm just reviewing the Men's wet area."
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "img_src": "../src/images/spax9.jpg",
+            "title": "Wilshire Spa",
+            "location": "Los Angeles",
+            "admission": {
+                "title": "Admission",
+                "data": [
+                    "$15 Before 10PM",
+                    "$20 After 10PM",
+                    "1, 6, and 12 Month Memberships Available"
+                ]
+            },
+            "showers": {
+                "title": "Showers",
+                "data": [
+                    "5 Standing",
+                    "12 Seated",
+                    "1 Cold Rinse"
+                ]
+            },
+            "saunas": {
+                "title": "Saunas",
+                "data": [
+                    "Wet/Steam Room",
+                    "Dry Sauna",
+                    "Yellow Orchid Room"
+                ]
+            },
+            "pools": {
+                "title": "Pools",
+                "data": [
+                    "Hot (Jacuzzi) - 108F",
+                    "Warm (Jacuzzi) - 106F",
+                    "Cold Plunge - 74F"
+                ]
+            },
+            "am": {
+                "title": "Amenities and Ambiance",
+                "data": [
+                    "Body Scrub: $40 (Includes Admission)",
+                    "1 Scrub Tables",
+                    "Quiet Room: Yes",
+                    "Grooming Stations: 4",
+                    "TV Lounge: Yes",
+                    "Outdoor Patio: No",
+                    "Towels: Small Towels, No Limit"
+                ]
+            },
+            "review": {
+                "title": "Review",
+                "data": [
+                    "The highlight of Wilshire for me was the warm pool, which is in a grotto-like rock structure with a waterfall.  Very cool.  Aside from that, it's your standard Korean spa in every way.  Oh ya, the Q-Tips are those crappy useless plastic ones.  Because ya'know, real Q-tips are so expensive lol.  As 24/7 spas in Ktown go, I'd personally rather go to Wi Spa or Century."
+                ]
+            }
         }
     ]
 }
