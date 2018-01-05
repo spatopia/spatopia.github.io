@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @font-face { font-family: Apercu; src: url('../fonts/Apercu.otf'); }
 @font-face { font-family: Apercu-Light; src: url('../fonts/Apercu-Light.otf'); }
 @font-face { font-family: Apercu-Italic; src: url('../fonts/Apercu-Italic.otf'); }
@@ -18,6 +19,7 @@ body {
     max-width: 100px;
     max-height: 100px;
     border-radius: 99px;
+    margin-top: 0.5rem;
 }
 
 .title {
@@ -37,10 +39,23 @@ body {
 .container {
     font-family: Apercu;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 1fr;
     grid-gap: 20px;
-    padding: 2rem 4rem 4rem 4rem;
+    padding: 1rem;
+
+    @media screen and (max-width: 970px) {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+    }
+
+    @media screen and (min-width: 971px) and (max-width: 2049px) {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr;
+    }
+
+    @media screen and (min-width: 2050px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+    }
 }
 
 .spa-location {
@@ -50,15 +65,31 @@ body {
     padding: 0.75rem;
     position: relative;
     cursor: pointer;
+
+    @media screen and (max-width: 520px) {
+        flex-direction: column;
+    }
 }
 
 .spa-picture {
-    width: 200px;
     height: 300px;
+    width: 30%;
     display: flex;
     flex: 1 1 100%;
     border-radius: 5px;
     object-fit: cover;
+
+    @media screen and (max-width: 520px) {
+        width: 100px;
+        height: 100px;
+        border-radius: 99px;
+        margin: 0 auto;
+        flex: 1 1 auto;
+    }
+
+    @media screen and (min-width: 2050px) {
+        height: 100%;
+    }
 }
 
 .elem {
@@ -120,28 +151,6 @@ body {
     color: #3E606F;
 }
 
-@media screen and (min-width: 2050px) {
-    .container {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 300px 300px 300px;
-    }
-
-    .spa-picture {
-        height: 100%;
-    }
-}
-
-@media screen and (min-width: 1160px) and (max-width: 2049px) {
-    .container {
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 1fr;
-    }
-
-    .spa-quote {
-        margin-top: 10px;
-    }
-}
-
 .spa-reviews {
     display: flex;
     flex-wrap: wrap;
@@ -163,11 +172,11 @@ body {
 }
 
 .review-title {
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: Apercu-Medium;
     flex: 1 1 100%;
     color: #343231;
-    margin: 0 0 -10px -6px;
+    margin: 0 0 -5px -3px;
 }
 
 .review-subtitle {
@@ -211,7 +220,7 @@ body {
 }
 
 .review-slideout {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100%;
     background-color: red;
@@ -238,4 +247,9 @@ body {
     left: 0;
     font-size: 4rem;
     margin: 2rem 4rem;
+
+    @media only screen and (max-width: 500px) {
+        font-size: 2.5rem;
+        margin: 1rem;
+    }
 }

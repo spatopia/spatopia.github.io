@@ -69,7 +69,7 @@ function build_js() {
 }
 
 function build_css() {
-    return gulp.src('./src/css/**/*.+(less)')
+    return gulp.src('./src/css/**/*.+(css|less)')
         .pipe(less())
         .pipe(gulp.dest('./dist/css'));
 }
